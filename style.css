@@ -1,0 +1,199 @@
+/* CSS variable */
+:root {
+    --main-font-family: Trebuchet MS;
+    --input-font-family: Arial;
+    --label-font-size: 12px;
+    --font-color: black;
+    --input-bgd-color:  #c1cee3;
+    --input-font-size: 15px;
+    --label-font-weight: bolder;
+}
+/* End of CSS variables */
+
+body {
+   background-color: #ADD8E6; 
+}
+
+#piggy-logo {
+    display: block;
+    margin: 25px auto 25px auto;
+    height: 65px;
+    width: 192px;
+}
+
+#main-container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 420px;
+    height: 100%;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#form-container {
+    padding: 25px 5px 10px 7px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: var(--main-font-family);
+    color:#043179;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.sub-heading {
+    text-align: center;
+    font-family: var(--main-font-family);
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: 14px;
+    color:#bdb7ac;
+}
+
+.name-label {
+    font-family: var(--main-font-family);
+    font-size: var(--label-font-size);
+    margin-bottom: 30px;
+    font-weight: var(--label-font-weight);
+
+}
+
+#full-name {
+    width: 380px;
+    padding: 15px;
+    margin: 8px 0px 30px 0px;
+    font-family: var(--input-font-family);
+    font-size: var(--input-font-size);
+    background-color:var(--input-bgd-color) ;
+    border: thin;
+    border-radius: 5px;
+}
+
+.email-label {
+    font-family: var(--main-font-family);
+    font-size: var(--label-font-size);
+    margin-bottom: 30px; 
+    font-weight: var(--label-font-weight);
+}
+
+#email-address {
+    width: 380px;
+    padding: 15px;
+    margin: 8px 0px 30px 0px;
+    font-family: var(--input-font-family);
+    font-size: var(--input-font-size);
+    background-color:var(--input-bgd-color) ;
+    border: thin;
+    border-radius: 5px;
+}
+
+.phone-label {
+    font-family: var(--main-font-family);
+    font-size: var(--label-font-size);
+    margin-bottom: 30px; 
+    font-weight: var(--label-font-weight);
+}
+
+#phone-number {
+    width: 380px;
+    padding: 15px;
+    margin: 8px 0px 30px 0px;
+    font-family: var(--input-font-family);
+    font-size: var(--input-font-size);
+    background-color:var(--input-bgd-color) ;
+    border: thin;
+    border-radius: 5px;
+}
+
+.password-label {
+    font-family: var(--main-font-family);
+    font-size: var(--label-font-size);
+    margin-bottom: 30px;
+    font-weight:var(--label-font-weight);  
+}
+
+#password {
+    width: 380px;
+    padding: 15px;
+    margin: 8px 0px 30px 0px;
+    font-family: var(--input-font-family);
+    font-size: var(--input-font-size);
+    background-color:var(--input-bgd-color) ;
+    border: thin;
+    border-radius: 5px; 
+}
+
+.referrer-label {
+    font-family: var(--main-font-family);
+    font-size: var(--label-font-size);
+    margin-bottom: 30px; 
+    font-weight:var(--label-font-weight);
+}
+
+#referrer {
+    width: 380px;
+    padding: 15px;
+    margin: 8px 0px 30px 0px;
+    font-family: var(--input-font-family);
+    font-size: var(--input-font-size);
+    background-color:var(--input-bgd-color) ;
+    border: thin;
+    border-radius: 5px;
+}
+
+.social-media-label {
+    font-family: var(--main-font-family);
+    font-size: var(--label-font-size);
+    margin-bottom: 30px; 
+    font-weight:var(--label-font-weight);
+}
+
+#social-media {
+    width: 400px;
+    padding: 15px;
+    margin: 8px 0px 30px 0px;
+    font-family: var(--input-font-family);
+    font-size: var(--input-font-size);
+    background-color:var(--input-bgd-color) ;
+    border: thin;
+    border-radius: 5px;
+    
+}
+
+#submit {
+    width: 400px;
+    padding: 15px;
+    margin: 8px 0px 30px 0px;
+    font-family: var(--main-font-family);
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    background-color:rgb(37, 37, 211);
+    border: thin;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.link {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-weight: lighter;
+    font-size: small;
+    color: blue;
+    font-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
